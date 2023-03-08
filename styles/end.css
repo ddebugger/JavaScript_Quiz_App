@@ -1,0 +1,46 @@
+.end-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2{
+    font-size: 5.4rem;
+    color: var(--color--);
+    margin-bottom: 5rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(85, 165, 215, 0.5);
+}
+
+input ::placeholder{
+    color: var(--color--);
+}
+
+.end-links{
+    display: flex;
+    flex-direction: column;
+}

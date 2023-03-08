@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/game.css">
+</head>
+<body>
+
+    <div class="game-container" id="game">  
+
+        <div class="game-container__options">
+            
+            <div id="hud" >
+                <div class="hud-items">
+                    <p class="hud-items__prefix">
+                        Question
+                    </p>
+                    <h1 id="questionCounter" class="hud-items__text"></h1>
+                </div>
+    
+                <div class="hud-items">
+                    <p class="hud-items__prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-items__text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <h2 id="Questions">What Is The Answer To The Question?</h2>
+
+            <div class="game-container__options-answers">
+                <p class="options-answers__letters">A</p>
+                <p class="options-answers__text" data-number="1">Choice 1</p>
+            </div>
+
+            <div class="game-container__options-answers">
+                <p class="options-answers__letters">B</p>
+                <p class="options-answers__text" data-number="2">Choice 2</p>
+            </div>
+
+            <div class="game-container__options-answers">
+                <p class="options-answers__letters">C</p>
+                <p class="options-answers__text" data-number="3">Choice 3</p>
+            </div>
+
+            <div class="game-container__options-answers">
+                <p class="options-answers__letters">D</p>
+                <p class="options-answers__text" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+    
+
+<script src="./game.js"></script>
+
+</body>
+</html>

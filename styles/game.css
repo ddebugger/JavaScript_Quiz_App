@@ -1,0 +1,78 @@
+.game-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+
+#hud{
+    display: flex;
+    margin-top: 5rem;
+    gap: 28rem;
+}
+
+.hud-items__prefix{
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+.hud-items__text{
+    text-align: center;
+}
+
+h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: black;
+    width: 100%;
+}
+
+.game-container__options{
+    width: 100%;
+}
+
+.game-container__options-answers{
+    display: flex;
+    background-color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0.1rem solid rgba(65, 165, 235, 0.25);
+}
+
+.game-container__options-answers:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(85, 165, 215, 0.5);
+    transform: translateY(-0.1rem);
+    transition: 120ms;
+}
+
+.options-answers__letters{
+    padding: 1.5rem 2.5rem;
+    background-color: var(--color--);
+    color: #fff;
+}
+
+.options-answers__text{
+    padding: 1.5rem;
+    color: black;
+    width: 100%;
+    font-size: 3.7rem;
+}
+
+/* applying the colors for corectness and incoreectness */
+
+.correct{
+    background-color: #28a745;
+}
+
+.incorrect{
+    background-color: #dc3545;
+}
